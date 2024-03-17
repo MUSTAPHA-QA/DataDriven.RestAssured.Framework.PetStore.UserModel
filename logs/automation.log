@@ -1,0 +1,39 @@
+16:14:13.922 [main] INFO  api.test.UserTests - ------------------------Starting create user test------------------------
+16:14:15.732 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:15.732 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:15.929 [main] INFO  api.test.UserTests - ------------------------Finished create user test------------------------
+16:14:15.929 [main] INFO  api.test.UserTests - ------------------------Starting create user test------------------------
+16:14:16.195 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:16.195 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:16.218 [main] INFO  api.test.UserTests - ------------------------Finished create user test------------------------
+16:14:16.234 [main] INFO  api.test.UserTests - ------------------------Starting create user test------------------------
+16:14:16.515 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:16.515 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:16.531 [main] INFO  api.test.UserTests - ------------------------Finished create user test------------------------
+16:14:16.593 [main] INFO  api.test.UserTests - ------------------------Starting read user test------------------------
+16:14:16.868 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:16.868 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:16.884 [main] INFO  api.test.UserTests - Response Body: {"id":4,"username":"testuser1","email":"s@gmail.com","password":"abc*1","phone":"1234567890","userStatus":0}
+16:14:16.915 [main] INFO  api.test.UserTests - ------------------------Finished read user test------------------------
+16:14:16.915 [main] INFO  api.test.UserTests - ------------------------Starting read user test------------------------
+16:14:17.165 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:17.165 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:17.180 [main] INFO  api.test.UserTests - Response Body: {"id":8,"username":"testuser2","email":"j@gmail.com","password":"abc*2","phone":"9876543210","userStatus":0}
+16:14:17.180 [main] INFO  api.test.UserTests - ------------------------Finished read user test------------------------
+16:14:17.180 [main] INFO  api.test.UserTests - ------------------------Starting read user test------------------------
+16:14:17.462 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:17.462 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:17.477 [main] INFO  api.test.UserTests - Response Body: {"id":16,"username":"testuser3","email":"k@gmail.com","password":"abc*3","phone":"1230987654","userStatus":0}
+16:14:17.477 [main] INFO  api.test.UserTests - ------------------------Finished read user test------------------------
+16:14:17.547 [main] INFO  api.test.UserTests - ------------------------Starting delete user test------------------------
+16:14:17.796 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:17.796 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:17.796 [main] INFO  api.test.UserTests - ------------------------Finished delete user test------------------------
+16:14:17.796 [main] INFO  api.test.UserTests - ------------------------Starting delete user test------------------------
+16:14:18.046 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:18.046 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:18.046 [main] INFO  api.test.UserTests - ------------------------Finished delete user test------------------------
+16:14:18.046 [main] INFO  api.test.UserTests - ------------------------Starting delete user test------------------------
+16:14:18.305 [main] INFO  api.test.UserTests - Response Status Code: 200
+16:14:18.305 [main] INFO  api.test.UserTests - Content-Type Header: application/json
+16:14:18.305 [main] INFO  api.test.UserTests - ------------------------Finished delete user test------------------------

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-17T16:08:15 CDT" name="Pet Store " finished-at="2024-03-17T16:08:21 CDT" duration-ms="5664">
+    <groups>
+    </groups>
+    <test started-at="2024-03-17T16:08:15 CDT" name="User Model" finished-at="2024-03-17T16:08:21 CDT" duration-ms="5664">
+      <class name="api.test.UserTests">
+        <test-method signature="postUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:16 CDT" name="postUser" data-provider="Data" finished-at="2024-03-17T16:08:19 CDT" duration-ms="2153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Soulek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[s@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc*1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+        <test-method signature="postUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:19 CDT" name="postUser" data-provider="Data" finished-at="2024-03-17T16:08:19 CDT" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Joe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hattab]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[j@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc*2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+        <test-method signature="postUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:19 CDT" name="postUser" data-provider="Data" finished-at="2024-03-17T16:08:19 CDT" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kabby]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lame]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[k@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc*3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1230987654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+        <test-method signature="getUser(java.lang.String)[pri:2, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:19 CDT" name="getUser" data-provider="UserNames" finished-at="2024-03-17T16:08:20 CDT" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String)[pri:2, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:20 CDT" name="getUser" data-provider="UserNames" finished-at="2024-03-17T16:08:20 CDT" duration-ms="276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String)[pri:2, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:20 CDT" name="getUser" data-provider="UserNames" finished-at="2024-03-17T16:08:20 CDT" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:3, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:20 CDT" name="deleteUser" data-provider="UserNames" finished-at="2024-03-17T16:08:21 CDT" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:3, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:21 CDT" name="deleteUser" data-provider="UserNames" finished-at="2024-03-17T16:08:21 CDT" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String)[pri:3, instance:api.test.UserTests@77307458]" started-at="2024-03-17T16:08:21 CDT" name="deleteUser" data-provider="UserNames" finished-at="2024-03-17T16:08:21 CDT" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- User Model -->
+  </suite> <!-- Pet Store  -->
+</testng-results>
